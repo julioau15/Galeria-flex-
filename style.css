@@ -1,0 +1,88 @@
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(68, 68, 68);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    font-size: 170px;
+    font-style: oblique;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke-width: 8px;
+    -webkit-text-stroke-color: black;
+    margin: 50px 80px 100px 80px;
+    text-decoration:underline;
+    text-shadow: 15px 15px 1px rgb(113, 94, 97);
+}
+
+div{
+    display:flex;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+a h2:hover{
+    color: rgb(254, 0, 0);
+    transition: 1s;
+    background-color: aliceblue;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+    background-color: black;
+    padding: 12px;
+    margin-bottom: 1.5vw;
+}
+
+.musical-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5vw;
+    margin: 0px 2vw 200px 2vw;
+}
+
+.musical-container a {
+    align-items: center; 
+    justify-content: center; 
+    width: fit-content; 
+    height: fit-content; 
+    margin: 0 auto; 
+}
+.musical-container img {
+    width: 20vw;
+    border: 10px solid rgb(7, 7, 6);
+    border-radius: 50px; 
+}
+
+.musical-container img:hover{
+    transform: scale(1.050);
+    border: 10px solid white;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+footer{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
